@@ -41,3 +41,16 @@ form.addEventListener('submit', (evt) => {
   const authorValue = authorInput.value;
   addBooks(titleValue, authorValue);
 });
+
+/* eslint-disable no-unused-vars */
+const removeBook = (id) => {
+  if (localStorage.getItem('books') == null) {
+    books = [];
+  } else {
+    books = JSON.parse(localStorage.getItem('books'));
+  }
+  const bookIndex = books.findIndex((item, i) => i === id);
+  books.splice(bookIndex, 1);
+  localStorage.setItem('books', JSON.stringify(books));
+  displayBooks();
+};
