@@ -1,6 +1,6 @@
 const form = document.querySelector('.form');
-const titleInput = document.querySelector('#fname');
-const authorInput = document.querySelector('#lname');
+const titleInput = document.querySelector('#first-name');
+const authorInput = document.querySelector('#last-name');
 const book = document.querySelector('.books');
 let books;
 
