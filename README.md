@@ -87,6 +87,13 @@ You can deploy this project using: Netlify, and some other hosting service: <a h
 - Twitter: [Ezechukwuchibu2](https://twitter.com/Ezechukwuchibu2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ezechukwu-chibuike/)
 
+
+👤 **Ritika Rawat**
+
+- GitHub: [ritikarawat220](https://github.com/ritikarawat220)
+- Twitter: [@ritikarawat22](https://twitter.com/Ritikarawat22)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rawatritika/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
