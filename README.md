@@ -5,7 +5,6 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -31,12 +30,6 @@
 ### Tech Stack <a name="tech-stack"></a>
 HTML, CSS, Javascript
 
-### Key Features <a name="key-features"></a>
-
-- **Header**
-- **Work Section**
-- **About me**
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name=""></a>
@@ -60,7 +53,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:Moses-chibuike/Portfolio-microverse.git
+  git clone git@github.com:Moses-chibuike/Awesome-Books.git
 ```
 
 ### Usage
