@@ -61,3 +61,4 @@ class Book {
     Display.addBook();
     form.reset();
   });
+  
