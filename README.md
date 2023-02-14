@@ -118,7 +118,7 @@ If you like this project, give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and my coding partner,
+I would like to thank Microverse and my coding partner(Ritika Rawat).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
