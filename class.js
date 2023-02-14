@@ -52,4 +52,12 @@ class Book {
       this.displayBooks();
     }
   }
- 
+  window.addEventListener('DOMContentLoaded', () => {
+    Display.displayBooks();
+  });
+  const form = document.querySelector('.form');
+  form.addEventListener('submit', (evt) => {
+    evt.preventDefault();
+    Display.addBook();
+    form.reset();
+  });
