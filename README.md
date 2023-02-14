@@ -118,7 +118,7 @@ If you like this project, give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and my coding partners, and also give credit to Cindy Shin, the original author of the design.
+I would like to thank Microverse and my coding partner,
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
