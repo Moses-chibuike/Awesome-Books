@@ -5,7 +5,6 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -22,33 +21,38 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Mobile Porfolio <a name="about-project"></a>
+# 📖 [Awesome books] <a name="about-project"></a>
 
-**Awesome Books** is a place to show my web development projects.
+> A website which display list of books
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 HTML, CSS, Javascript
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Key Features <a name="key-features"></a>
 
-- **Header**
-- **Work Section**
-- **About me**
+> Describe between 1-3 key features of the application.
+
+- **Book List Section**
+- **Add Book Form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name=""></a>
 
-- [Live Demo Link]()
-- Right click > Inspect > Choose Mobile version
+## 🚀 Live Demo <a name="live-demo"></a>
+ This project hasn't been deployed yet, anticipate in coming versions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-You can check the repo and see the desgin of the page
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -60,7 +64,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:Moses-chibuike/Portfolio-microverse.git
+  git clone git@github.com:Moses-chibuike/Awesome-Books.git
 ```
 
 ### Usage
@@ -98,7 +102,10 @@ You can deploy this project using: Netlify, and some other hosting service: <a h
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Contact me section
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **Navigation Links**
+- [ ] **Contact Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +125,7 @@ If you like this project, give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and my coding partners, and also give credit to Cindy Shin, the original author of the design.
+I would like to thank Microverse and my coding partner(Ritika Rawat).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
