@@ -24,7 +24,7 @@ class Display {
     let display = '';
     books.forEach((book, i) => {
       display += `
-          <div class="booksAdded">
+          <div class="Add-book ">
           <p>"${book.title}" by ${book.author}</p>
           <button class="removeBtn" onclick="Display.removeBook(${i})">Remove</button>
           </div>`;
@@ -33,8 +33,8 @@ class Display {
   }
 
   static addBook() {
-    const titleInput = document.querySelector('#fname').value;
-    const authorInput = document.querySelector('#lname').value;
+    const titleInput = document.querySelector('#first-name').value;
+    const authorInput = document.querySelector('#last-name').value;
     if (titleInput !== '' && authorInput !== '') {
       const newBook = new Book(titleInput, authorInput);
       const books = Display.getBooks();
