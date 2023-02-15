@@ -44,6 +44,7 @@ HTML, CSS, Javascript
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+ This project hasn't been deployed yet, anticipate in coming versions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
