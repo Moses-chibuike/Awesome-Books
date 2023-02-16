@@ -1,16 +1,16 @@
-const form = document.querySelector('.form');
-const titleInput = document.querySelector('#first-name');
-const authorInput = document.querySelector('#last-name');
-const book = document.querySelector('.books');
+const form = document.querySelector(".form");
+const titleInput = document.querySelector("#first-name");
+const authorInput = document.querySelector("#last-name");
+const book = document.querySelector(".books");
 let books;
 
 const displayBooks = () => {
-  if (localStorage.getItem('books') == null) {
+  if (localStorage.getItem("books") == null) {
     books = [];
   } else {
-    books = JSON.parse(localStorage.getItem('books'));
+    books = JSON.parse(localStorage.getItem("books"));
   }
-  let display = '';
+  let display = "";
   books.forEach((book, i) => {
     display += `
         <div class="booksAdded">
@@ -25,18 +25,18 @@ const displayBooks = () => {
 };
 
 const addBooks = (Title, Author) => {
-  if (Title !== '' && Author !== '') {
+  if (Title !== "" && Author !== "") {
     books.push({ title: Title, author: Author });
-    localStorage.setItem('books', JSON.stringify(books));
+    localStorage.setItem("books", JSON.stringify(books));
   }
   displayBooks();
 };
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener("DOMContentLoaded", () => {
   displayBooks();
 });
 
-form.addEventListener('submit', (evt) => {
+form.addEventListener("submit", (evt) => {
   evt.preventDefault();
   const titleValue = titleInput.value;
   const authorValue = authorInput.value;
@@ -45,13 +45,13 @@ form.addEventListener('submit', (evt) => {
 
 /* eslint-disable no-unused-vars */
 const removeBook = (id) => {
-  if (localStorage.getItem('books') == null) {
+  if (localStorage.getItem("books") == null) {
     books = [];
   } else {
-    books = JSON.parse(localStorage.getItem('books'));
+    books = JSON.parse(localStorage.getItem("books"));
   }
   const bookIndex = books.findIndex((item, i) => i === id);
   books.splice(bookIndex, 1);
-  localStorage.setItem('books', JSON.stringify(books));
+  localStorage.setItem("books", JSON.stringify(books));
   displayBooks();
 };

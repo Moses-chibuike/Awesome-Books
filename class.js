@@ -6,22 +6,22 @@ class Book {
   }
 }
 
-const book = document.querySelector('.books');
+const book = document.querySelector(".books");
 
 class Display {
   static getBooks() {
     let books;
-    if (localStorage.getItem('books') == null) {
+    if (localStorage.getItem("books") == null) {
       books = [];
     } else {
-      books = JSON.parse(localStorage.getItem('books'));
+      books = JSON.parse(localStorage.getItem("books"));
     }
     return books;
   }
 
   static displayBooks() {
     const books = Display.getBooks();
-    let display = '';
+    let display = "";
     books.forEach((book, i) => {
       display += `
           <div class="booksAdded">
@@ -33,13 +33,13 @@ class Display {
   }
 
   static addBook() {
-    const titleInput = document.querySelector('#first-name').value;
-    const authorInput = document.querySelector('#last-name').value;
-    if (titleInput !== '' && authorInput !== '') {
+    const titleInput = document.querySelector("#first-name").value;
+    const authorInput = document.querySelector("#last-name").value;
+    if (titleInput !== "" && authorInput !== "") {
       const newBook = new Book(titleInput, authorInput);
       const books = Display.getBooks();
       books.push(newBook);
-      localStorage.setItem('books', JSON.stringify(books));
+      localStorage.setItem("books", JSON.stringify(books));
       this.displayBooks();
     }
   }
@@ -48,15 +48,15 @@ class Display {
     const books = Display.getBooks();
     const bookIndex = books.findIndex((item, i) => i === id);
     books.splice(bookIndex, 1);
-    localStorage.setItem('books', JSON.stringify(books));
+    localStorage.setItem("books", JSON.stringify(books));
     this.displayBooks();
   }
 }
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener("DOMContentLoaded", () => {
   Display.displayBooks();
 });
-const form = document.querySelector('.form');
-form.addEventListener('submit', (evt) => {
+const form = document.querySelector(".form");
+form.addEventListener("submit", (evt) => {
   evt.preventDefault();
   Display.addBook();
   form.reset();
