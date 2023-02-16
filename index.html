@@ -8,29 +8,61 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="cover">
-      <h1>All awesome books</h1>
-      <div class="books"></div>
-      <hr class="hr" />
-      <p class="add">Add a new book</p>
-      <form class="form">
-        <input
-          type="text"
-          id="first-name"
-          name="first-name"
-          placeholder="Title"
-          required
-        /><br /><br />
-        <input
-          type="text"
-          id="last-name"
-          name="last-name"
-          placeholder="Author"
-          required
-        /><br /><br />
-        <div class="button-form"><button type="submit">Add</button></div>
-      </form>
-      <script src="class.js"></script>
+    <div class="wrap-all">
+      <nav class="navi-menu">
+        <h2>Awesome Books</h2>
+        <ul class="nav-list">
+          <li class="books-list">List</li>
+          <li class="giver"></li>
+          <li class="add-book">Add</li>
+          <li class="giver"></li>
+          <li class="contact-info">Contact</li>
+        </ul>
+      </nav>
+      <div class="calendar">Feb. 16th, 2023 08:36:45AM</div>
+
+      <div class="wrap">
+       
+        <h1>All awesome books</h1>
+
+        <div class="books"></div>
+       
+
+        <form class="form">
+          <p class="add">Add a new book</p>
+          <input
+            type="text"
+            id="first-name"
+            name="first-name"
+            placeholder="Title"
+            required
+          /><br /><br />
+          <input
+            type="text"
+            id="last-name"
+            name="last-name"
+            placeholder="Author"
+            required
+          /><br /><br />
+          <div class="button-form"><button type="submit">Add</button></div>
+        </form>
+
+        <div class="contact">
+          <h3>Contact Us</h3>
+          <p>
+            We will be available to answer any of your questions <br />
+            You can get accross to us!, we will be happy to assit in anyway we can. Thank you!
+          </p>
+          <ul>
+            <li>e-mail: ezechukwuchibuikemoses@gmail.com</li>
+            <li>phone number: +2348114505542</li>
+            <li>address: 2 Aghaji crescent, G.R.A, Enugu.</li>
+          </ul>
+        </div>
+        <p class="rights">Copyright</p>
+      </div>
     </div>
+    <script src="class.js"></script>
+    <script src="navigation.js"></script>
   </body>
 </html>

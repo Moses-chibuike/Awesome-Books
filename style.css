@@ -1,18 +1,79 @@
 body {
-  font-size: 18px;
-  font-weight: 405;
+  font-size: 16px;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
 
-.cover {
+.wrap-all {
+  border: 3px solid;
+  height: auto;
+  padding: 1rem 0;
+}
+
+.navi-menu {
+  width: 95%;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgray;
+  border: 3px solid;
+  margin: auto;
+}
+
+.nav-list {
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.nav-list li {
+  list-style: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.giver {
+  border-right: 2px solid black;
+  height: 1.5rem;
+}
+
+.contact ul li {
+  text-align: left;
+}
+
+.nav-list li:hover {
+  color: aqua;
+}
+
+.calendar {
+  display: flex;
+  justify-content: flex-end;
+  width: 98%;
+}
+
+h2 {
+  width: 60%;
+  padding-left: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.wrap {
   text-align: center;
   width: 100%;
 }
 
 .hr {
   width: 20%;
-  margin-top: 2.2rem;
+  margin-top: 2rem;
   border: none;
   height: 2px;
   color: #333;
@@ -24,19 +85,19 @@ body {
   font-weight: bold;
 }
 
-.Add-book {
+.booksAdded {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.6rem 0 0.6rem;
+  padding: 0 0.5rem 0 0.5rem;
 }
 
-.Add-book:nth-of-type(odd) {
+.booksAdded:nth-of-type(odd) {
   background-color: #d3d3d3;
-  height: 3.2rem;
+  height: 3rem;
 }
 
-.Add-book:nth-of-type(even) {
+.booksAdded:nth-of-type(even) {
   background-color: #fff;
   height: 3rem;
 }
@@ -49,9 +110,9 @@ body {
 }
 
 .books {
-  width: 58%;
+  width: 60%;
   text-align: center;
-  border: 2.8px solid;
+  border: 3px solid;
   margin: 0 auto;
 }
 
@@ -65,10 +126,27 @@ button {
 }
 
 .form {
-  width: 58%;
+  width: 60%;
   margin: 0 auto;
 }
 
 .form input {
-  width: 52%;
+  width: 50%;
+}
+
+.contact {
+  width: 50%;
+  margin: auto;
+}
+
+.contact p {
+  text-align: left;
+}
+
+.rights {
+  width: 90%;
+  border: 2px solid;
+  margin: 3rem auto 0;
+  text-align: left;
+  padding-left: 1rem;
 }
