@@ -24,7 +24,7 @@ class Display {
     let display = '';
     books.forEach((book, i) => {
       display += `
-          <div class="Add-book ">
+          <div class="booksAdded">
           <p>"${book.title}" by ${book.author}</p>
           <button class="removeBtn" onclick="Display.removeBook(${i})">Remove</button>
           </div>`;

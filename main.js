@@ -13,10 +13,11 @@ const displayBooks = () => {
   let display = '';
   books.forEach((book, i) => {
     display += `
-        <div>
+        <div class="booksAdded">
+
         <p>${book.title}</p>
         <p>${book.author}</p>
-        <button onclick="removeBook(${i})">Remove</button>
+        <button class="removeBtn" onclick="removeBook(${i})">Remove</button>
         <hr />
         </div>`;
   });
